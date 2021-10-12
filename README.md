@@ -35,7 +35,7 @@ https://github.com/alipbudiman/sustain-and-World.Execute-me-but-in-py3/blob/c113
 
 installation:
 
-        pip3 install itertools
+    pip3 install itertools
 
 running:
     
