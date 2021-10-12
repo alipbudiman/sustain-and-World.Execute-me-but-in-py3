@@ -1,7 +1,7 @@
 # sustain++ And World.Execute.me but in python3
 
 
-#World.Execute(me);
+# World.Execute(me);
 
 ![Ungu Kuning Hitam Neon Fiksi Ilmiah Seni Kanal YouTube](https://user-images.githubusercontent.com/82330418/137039756-2f5477ce-a791-48cf-a1f2-660896702f39.png)
 
@@ -21,7 +21,7 @@ running:
     
     python3 World.Execute.me.py
 
-#sustain++;
+# sustain++;
 
 ![Ungu Kuning Hitam Neon Fiksi Ilmiah Seni Kanal YouTube (2)](https://user-images.githubusercontent.com/82330418/137043193-aab3ba9f-3c22-409e-8e49-b03a6a6a28fb.png)
 
@@ -42,7 +42,7 @@ running:
     python3 SustainPP.py
     
     
-#Real Code of Sustain++
+# Real Code of Sustain++
 
 https://gist.github.com/laike9m/bbe3b4843b593ff2d3015a0cce2b270e
 
