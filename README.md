@@ -42,7 +42,7 @@ running:
     python3 SustainPP.py
     
     
-# Real Code of Sustain++
+# Real Code of Sustain++ (IN JAVA)
 
 https://gist.github.com/laike9m/bbe3b4843b593ff2d3015a0cce2b270e
 
