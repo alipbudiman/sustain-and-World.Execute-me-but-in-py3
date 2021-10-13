@@ -7,4 +7,4 @@ class World:
     def Execution(me):
         pass
 
-World.Execution(me)
+World.Execution(me);
