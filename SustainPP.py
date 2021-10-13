@@ -242,7 +242,7 @@ def Sustain_P_P():
     World()
     time.sleep(1)
     for x in range(15000):
-        SustainPlusPlus.slow_print("GOSH IN THE SHELL ",0)
+        SustainPlusPlus.slow_print("GHOST IN THE SHELL ",0)
 
 
 #sustain++;
