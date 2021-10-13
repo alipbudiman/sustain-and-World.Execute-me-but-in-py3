@@ -1,10 +1,10 @@
 import time
 
-me = "me"
+me = "World.Executr(me);"
 
 class World:
 
     def Execution(me):
-        pass
+        print(me)
 
 World.Execution(me);
