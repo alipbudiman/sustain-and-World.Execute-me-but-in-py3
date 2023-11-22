@@ -1,6 +1,6 @@
 import time
 
-me = "World.Executr(me);"
+me = "World.Execute(me);"
 
 class World:
 
