@@ -1,13 +1,13 @@
-import pywhatkit, sys, time, itertools, threading, os, random, pytz, json, math
+import sys, time, itertools, os, pytz, json, math
 import numpy as np
 from datetime import datetime
+from playsound import playsound 
 
 
 class World:
     
-    def singAsong():
-        song = "word.execute(me);"
-        pywhatkit.playonyt(song)
+    def play_audio(file_path):
+        playsound(file_path)
     
     def slow_print(text:str,speed):
             for karakter in text:

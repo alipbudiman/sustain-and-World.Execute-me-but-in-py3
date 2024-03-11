@@ -1,6 +1,7 @@
 from time import sleep
 from objects import*
 from AlipThreading import*
+from threading import Thread
 
 data = {
     "objectCreation":False,
@@ -21,6 +22,7 @@ class style:
     BOLD = "\033[;1m"
     RESET = "\033[0m"
 
+
 Complite = False
 while Complite == False:
     #World.singAsong()
@@ -30,8 +32,11 @@ while Complite == False:
             print(f"play yout music in {cnt}")
             cnt -= 1
             time.sleep(1)
+    play = Thread(target=World.play_audio, args=("world-execute-me.wav",))
+    play.daemon = True
+    play.start()
     print(f"START !!!")
-    time.sleep(0.5)
+    time.sleep(1)
     power_line = False
     World.slow_print(style.RED+"Switch on the power line"+style.RESET,0.03 )
     power_line = True

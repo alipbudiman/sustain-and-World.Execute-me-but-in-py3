@@ -1,5 +1,7 @@
 import time, sys, itertools, os
 from AlipThreading import*
+from playsound import playsound
+from threading import Thread
 
 
 
@@ -33,6 +35,9 @@ class SustainPlusPlus:
             print("# :::::: ",x+1)
             time.sleep(1)
         print("# :::::: start")
+        play = Thread(target=playsound, args=("sust.wav",))
+        play.daemon = True
+        play.start()
 
 
 

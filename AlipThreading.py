@@ -1,9 +1,5 @@
-import sys,trace,threading,time
+import sys,threading
 
-import sys
-import trace
-import threading
-import time
 class thread_with_trace(threading.Thread):
   def __init__(self, *args, **keywords):
     threading.Thread.__init__(self, *args, **keywords)
