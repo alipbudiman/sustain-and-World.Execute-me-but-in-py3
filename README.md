@@ -13,13 +13,12 @@ code:
 
 https://github.com/alipbudiman/sustain-and-World.Execute-me-but-in-py3/blob/a3735561b17d672bbe1acc6262303b916ee6e460/World.Execute.me.py
 
-installation:
-    
-    pip3 install pywhatkit && itertools && pytz && numpy && datetime
 
 running:
     
-    python3 World.Execute.me.py
+```
+python3 World.Execute.me.py
+```
 
 # sustain++;
 
@@ -33,13 +32,12 @@ code:
 
 https://github.com/alipbudiman/sustain-and-World.Execute-me-but-in-py3/blob/c1132754d8624c6c01e6dc471ca6d549539df896/SustainPP.py
 
-installation:
-
-    pip3 install itertools
 
 running:
     
-    python3 SustainPP.py
+```
+python3 SustainPP.py
+```
     
     
 # Real Code of Sustain++ (IN JAVA)
