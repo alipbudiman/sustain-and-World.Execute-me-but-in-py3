@@ -2,6 +2,7 @@ from time import sleep
 from objects import*
 from AlipThreading import*
 from threading import Thread
+import random
 
 data = {
     "objectCreation":False,
@@ -29,7 +30,7 @@ while Complite == False:
     cnt = 3
     for x in range(3):
         if cnt != 0:
-            print(f"play yout music in {cnt}")
+            print(f"play your music in {cnt}")
             cnt -= 1
             time.sleep(1)
     play = Thread(target=World.play_audio, args=("world-execute-me.wav",))
